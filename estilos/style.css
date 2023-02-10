@@ -21,7 +21,8 @@ main {
 
 #login {
     background-color: white;
-    height: 550px;
+    /* height: 550px; */
+    height: 90vh;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
