@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) { /* TABLETS */
+
+    body {
+        background-image: linear-gradient(to bottom,darkred, black);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+
+    }
+
+    .inputs, #botao-entrar, #botao-senha {
+        width: 53vw;
+    }
+
+    a {
+        width: 53vw;
+    }
+    
+}
+
+@media screen and (min-width: 992px) { /* GRANDES TELAS */
+    body {
+        background-image: linear-gradient(to bottom,red, black);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 60vh;
+    }
+
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: 50% 60%;
+
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+
+    }
+
+    #formulario p {
+        margin-bottom: 20px;    
+    }
+
+    .inputs {
+        margin: 10px 0px;
+        height: 50px;
+    }
+
+    #botao-entrar {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+
+    a {
+        width: 38vw;
+        height: 50px;
+        align-items: center;
+        padding-top: 5px;
+    }    
+
+    .inputs, #botao-entrar, #botao-senha {
+        width: 38vw;
+    }
+
+    #isenha, #iemail {
+        height: 46px;
+        transform: translateY(-6px);
+    }
+    
+}
