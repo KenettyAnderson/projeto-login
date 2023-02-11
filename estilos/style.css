@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     background-color: darkred;
     width: 100vw;
     height: 100vh;
@@ -21,7 +21,7 @@ main {
 
 #login {
     background-color: white;
-    height: 90vh;
+    height: 530px;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
@@ -39,7 +39,7 @@ main {
     background-image: url(../imagens/world.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 35vh;
+    height: 200px;
     background-position: center;
     display: block;
 }
@@ -91,6 +91,7 @@ main {
     border-radius: 8px;
     margin-bottom: 5px;
 }
+
 
 #botao-entrar:hover {
     cursor: pointer;

@@ -8,7 +8,7 @@
 
     section#login {
         width: 80vw;
-        height: 60vh;
+        height: 290px;
     }
 
     div#imagem {
@@ -41,8 +41,8 @@
     }
 
     section#login {
-        width: 80vw;
-        height: 60vh;
+        width: 950px;
+        height: 360px;
     }
 
 
@@ -51,12 +51,14 @@
         width: 50%;
         height: 100%;
         background-position: 50% 60%;
+        
 
     }
 
     div#formulario {
         float: left;
         width: 50%;
+        display: block;
 
     }
 
@@ -75,14 +77,14 @@
     }
 
     a {
-        width: 38vw;
+        width: 34vw;
         height: 50px;
         align-items: center;
         padding-top: 5px;
     } 
 
     .inputs, #botao-entrar, #botao-senha {
-        width: 38vw;
+        width: 34vw;
     }
 
     #isenha, #iemail {
