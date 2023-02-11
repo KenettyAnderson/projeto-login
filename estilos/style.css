@@ -80,7 +80,7 @@ main {
     height: 38px;
     border: 2px solid darkred;
     width: calc(100% - 45px);
-    transform: translateY(-12px);
+    transform: translateY(-12.5px);
 }
 
 #botao-entrar {
