@@ -29,6 +29,10 @@
         width: 53vw;
     }
 
+    #isenha, #iemail {
+        transform: translateY(-13px);
+    }
+
     a {
         width: 53vw;
     }
